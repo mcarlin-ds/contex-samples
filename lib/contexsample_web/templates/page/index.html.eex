@@ -71,6 +71,10 @@
               <%= link "Simple Pie Chart", to: Routes.live_path(@conn, ContexSampleWeb.SimplePieChartLive) %>
               <p>A super simple <code>Contex.SimplePie</code> demo<p>
             </li>
+            <li>
+              <%= link "Spectrum Analyzer Plot", to: Routes.live_path(@conn, ContexSampleWeb.SpectrumPlotLive) %>
+              <p>A simple <code>Contex.PointPlot</code> demo emulating a spectrum analyzer - also shows <code>Contex.LinePlot</code><p>
+            </li>
 
 
           </ul>
